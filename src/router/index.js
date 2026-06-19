@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ConstanciaView from '../views/ConstanciaView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.VITE_API_BASE_URL),
+  history: createWebHistory(),
   routes: [
     {
       path: '/constancia/:cui',
